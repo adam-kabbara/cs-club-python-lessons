@@ -3,7 +3,9 @@ input("Hello, please enter your name: ")
 # but if we want to access the users input value through out the whole program
 # we need to save it in a variable
 name = input("Hello, please enter your name: ")
+x = 2
 print(f"Your name is {name}") # remember printf from lesson 2
+print(f"hello {x}")
 
 
 # excersise 1

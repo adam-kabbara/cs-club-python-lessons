@@ -8,7 +8,7 @@ print(14)
 print("hello" + "world")
 
 # to convert any data type to a string
-print(str(11) + " years old") # string concatination
+print(str(10) + " years old") # string concatination
 # string to  int
 print(int("101"))
 

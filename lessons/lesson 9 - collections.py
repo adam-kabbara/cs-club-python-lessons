@@ -45,7 +45,7 @@ print("bread" in shopping_list)
 print(shopping_list.index("candy"))
 
 
-# tuples are imutable unordered collections
+# tuples are imutable ordered collections
 tup1 = (1, 2, 3)
 tup2 = ("hello", "world", "of", "python")
 tup3 = (True, False, False, True)

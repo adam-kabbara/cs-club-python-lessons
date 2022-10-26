@@ -16,5 +16,13 @@ while True:
     i = i+1
 
 # excersise 6
-# create a text base rock papaer scissors game
+# create a text base rock paper scissors game
 # that keeps on going until you type "quit"
+import random
+moves = ["rock", "paper", "scissors"]
+
+while True:
+    computer = random.choice(moves) 
+    user = input("enter a move (rock paper or scissors): ")
+    if computer == user:
+        pass

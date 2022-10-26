@@ -6,7 +6,7 @@
 # while loops allow us to iterate as long a condition is true
 
 # print numbers 0 to 10 (excluding 10)
-for i in range(10): # range is a special function in python that creates a collection of nubers
+for i in range(10):  # range is a special function in python that creates a collection of nubers
     print(i)        # depending on its arguements
 print("\n") # new line character
 
@@ -16,8 +16,8 @@ for i in range(4, 20, 2):
     print(i)
 
 # for loops can print elements in collections like lists
-for i in ["hello", "world", "of", "python"]:
-    print(i)
+for word in ["hello", "world", "of", "python"]:
+    print(word)
 
 # you can also get the index of each element with the element itself while looping through a list
 print("\n")

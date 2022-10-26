@@ -1,4 +1,4 @@
-name = input("name") # question: what will be the value of name?
+name = input("name: ") # question: what will be the value of name?
 
 if name == "adam":
     print("we are inside the if statement now") # if the first if statment condition was false
@@ -14,4 +14,5 @@ print("Always do this") # anything outside the if structure will run no matter
                         # the conditions of the if statements
 
 # excersise 3
-# write a program that will take the age of a person and print out if they are over 18 or not
+# write a program that will take the age of a person and print 
+# out if they are over 18 or not or if they are exactly 18
